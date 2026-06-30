@@ -4,6 +4,9 @@ A professional Node.js command-line application that ingests structured candidat
 
 Developed as a submission for the Eightfold Engineering Intern Assignment.
 
+### Live Deployment
+- **Web App URL**: [https://eightfold-candidate-transformer.vercel.app](https://eightfold-candidate-transformer.vercel.app)
+
 ---
 
 ## Technical Architecture
@@ -98,22 +101,32 @@ The architecture consists of a modular pipeline written in modern JavaScript (ES
 
 ## How to Run
 
-Follow these simple steps to run the pipeline end-to-end:
+You can execute the candidate transformer pipeline via the command line or using the interactive web dashboard.
 
-### Step 1: Generate Mock Ingest Files
-Generate sample inputs including `input/candidate.csv`, `input/config.json`, and a professional mock resume `input/resume.pdf` (built using `pdfkit`):
+### 1. Command Line Interface (CLI)
+
+#### Step 1: Generate Mock Ingest Files
+Generate sample inputs including `input/candidate.csv`, `input/config.json`, and the PDF resumes:
 ```bash
-npm run generate-inputs
+npm.cmd run generate-inputs
 ```
 
-### Step 2: Run the Transformer Pipeline
-Execute the CLI script to run the parsing, merging, and projection pipeline:
+#### Step 2: Run the Transformer Pipeline CLI
+Execute the main script to run the parsing, merging, and projection:
 ```bash
-npm start
+npm.cmd start
 ```
-The program will print pipeline steps directly to console and save results:
-- **Default/Canonical Schema**: Output saved to `output/canonical_profile.json`.
-- **Custom Config Projection**: Output saved to `output/result.json` shaped according to `config.json`.
+Outputs will be saved in:
+- **Canonical Schema**: `output/canonical_profile.json` and a parsed PDF report at `output/canonical_profile.pdf`.
+- **Projected Schema**: `output/result.json` matching the custom mappings in `config.json`.
+
+### 2. Interactive Web Dashboard & Dev Server
+
+You can run the web dashboard locally using Vercel Dev:
+```bash
+npx.cmd vercel dev
+```
+This launches a local development server at `http://localhost:3000`. You can open it in your browser to drag-and-drop file inputs, execute the pipeline via Vercel Serverless Functions, and visualize the output tabs, validation logs, and provenance metrics instantly.
 
 ---
 

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candidate Data Transformer | Eightfold Pipeline</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="glass-bg"></div>
+  
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <span class="pulse-dot"></span>
+        <h1>Candidate Data Transformer</h1>
+      </div>
+      <p class="subtitle">Multi-source parsing, normalizer, trust-weighted merger & runtime projection</p>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <!-- File Inputs Panel -->
+    <section class="panel upload-panel">
+      <div class="panel-header">
+        <h2>Ingest Sources</h2>
+        <span class="tag">Local Parsing & API Merger</span>
+      </div>
+      
+      <form id="pipeline-form">
+        <!-- CSV Upload -->
+        <div class="upload-group">
+          <label for="csv-file">
+            <span class="icon">📊</span>
+            <div>
+              <strong>Candidate CSV Export</strong>
+              <small>Structured CSV records list</small>
+            </div>
+          </label>
+          <input type="file" id="csv-file" accept=".csv">
+          <div class="file-status" id="csv-status">No file selected</div>
+        </div>
+
+        <!-- ATS JSON Upload -->
+        <div class="upload-group">
+          <label for="ats-file">
+            <span class="icon">⚙️</span>
+            <div>
+              <strong>ATS JSON Candidate</strong>
+              <small>Applicant Tracking System schema</small>
+            </div>
+          </label>
+          <input type="file" id="ats-file" accept=".json">
+          <div class="file-status" id="ats-status">No file selected</div>
+        </div>
+
+        <!-- PDF Resume Upload -->
+        <div class="upload-group">
+          <label for="pdf-file">
+            <span class="icon">📄</span>
+            <div>
+              <strong>Resume PDF File</strong>
+              <small>Unstructured resume text/annotations</small>
+            </div>
+          </label>
+          <input type="file" id="pdf-file" accept=".pdf">
+          <div class="file-status" id="pdf-status">No file selected</div>
+        </div>
+
+        <!-- Custom Config JSON Upload -->
+        <div class="upload-group">
+          <label for="config-file">
+            <span class="icon">🛠️</span>
+            <div>
+              <strong>Target Config JSON</strong>
+              <small>Custom schema projection configuration</small>
+            </div>
+          </label>
+          <input type="file" id="config-file" accept=".json">
+          <div class="file-status" id="config-status">No file selected</div>
+        </div>
+
+        <button type="submit" id="submit-btn" class="glow-button">
+          <span>Run Transformation Pipeline</span>
+        </button>
+      </form>
+    </section>
+
+    <!-- Results Panel -->
+    <section class="panel results-panel hidden" id="results-panel">
+      <div class="results-header">
+        <div class="metrics">
+          <div class="metric-card">
+            <span class="metric-label">Profiles Formed</span>
+            <span class="metric-val" id="profile-count">0</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Max Confidence</span>
+            <span class="metric-val text-green" id="max-confidence">0.00</span>
+          </div>
+        </div>
+        
+        <!-- Tab Selectors -->
+        <nav class="tab-nav">
+          <button class="tab-btn active" data-tab="projected-tab">Projected (Configured)</button>
+          <button class="tab-btn" data-tab="canonical-tab">Canonical Schema</button>
+          <button class="tab-btn" data-tab="provenance-tab">Provenance Matrix</button>
+          <button class="tab-btn" data-tab="validation-tab">Validation Warnings</button>
+        </nav>
+      </div>
+
+      <!-- Tab Content Area -->
+      <div class="tab-content active" id="projected-tab">
+        <div class="code-wrapper">
+          <button class="copy-btn" onclick="copyToClipboard('projected-code')">Copy</button>
+          <pre><code id="projected-code" class="language-json">{}</code></pre>
+        </div>
+      </div>
+
+      <div class="tab-content" id="canonical-tab">
+        <div class="code-wrapper">
+          <button class="copy-btn" onclick="copyToClipboard('canonical-code')">Copy</button>
+          <pre><code id="canonical-code" class="language-json">{}</code></pre>
+        </div>
+      </div>
+
+      <div class="tab-content" id="provenance-tab">
+        <div class="table-wrapper">
+          <table class="provenance-table">
+            <thead>
+              <tr>
+                <th>Canonical Field Path</th>
+                <th>Resolved Source File</th>
+                <th>Extraction Mechanism</th>
+              </tr>
+            </thead>
+            <tbody id="provenance-body">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="tab-content" id="validation-tab">
+        <div class="validation-container" id="validation-box">
+          <div class="validation-success">✓ Zero canonical schema violations detected. Profiles are clean.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Eightfold Engineering Assignment Submission | Created by Greeshma Busam</p>
+  </footer>
+
+  <script>
+    // File upload status displays
+    const files = {
+      csv: { el: document.getElementById('csv-file'), status: document.getElementById('csv-status'), content: null },
+      ats: { el: document.getElementById('ats-file'), status: document.getElementById('ats-status'), content: null },
+      pdf: { el: document.getElementById('pdf-file'), status: document.getElementById('pdf-status'), content: null },
+      config: { el: document.getElementById('config-file'), status: document.getElementById('config-status'), content: null }
+    };
+
+    // Bind file status changes
+    files.csv.el.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (file) {
+        files.csv.status.innerText = `Loaded: ${file.name}`;
+        const reader = new FileReader();
+        reader.onload = (evt) => { files.csv.content = evt.target.result; };
+        reader.readAsText(file);
+      }
+    });
+
+    files.ats.el.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (file) {
+        files.ats.status.innerText = `Loaded: ${file.name}`;
+        const reader = new FileReader();
+        reader.onload = (evt) => { files.ats.content = evt.target.result; };
+        reader.readAsText(file);
+      }
+    });
+
+    files.config.el.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (file) {
+        files.config.status.innerText = `Loaded: ${file.name}`;
+        const reader = new FileReader();
+        reader.onload = (evt) => { files.config.content = evt.target.result; };
+        reader.readAsText(file);
+      }
+    });
+
+    files.pdf.el.addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (file) {
+        files.pdf.status.innerText = `Loaded: ${file.name}`;
+        const reader = new FileReader();
+        reader.onload = (evt) => {
+          const dataUrl = evt.target.result;
+          files.pdf.content = dataUrl.split(',')[1]; // Split out mime type to get raw base64
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+
+    // Form Submission
+    const form = document.getElementById('pipeline-form');
+    const submitBtn = document.getElementById('submit-btn');
+    const resultsPanel = document.getElementById('results-panel');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      submitBtn.disabled = true;
+      submitBtn.innerText = 'Processing Pipeline...';
+      
+      const payload = {
+        csvText: files.csv.content,
+        atsJson: files.ats.content,
+        configJson: files.config.content,
+        resumeBase64: files.pdf.content
+      };
+
+      try {
+        const response = await fetch('/api/transform', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.error || 'Transformation pipeline request failed');
+        }
+
+        // Render metrics
+        document.getElementById('profile-count').innerText = data.canonical.length;
+        const maxConf = Math.max(...data.canonical.map(c => c.overall_confidence || 0), 0);
+        document.getElementById('max-confidence').innerText = maxConf.toFixed(2);
+
+        // Render code blocks
+        document.getElementById('projected-code').innerText = JSON.stringify(data.projected, null, 2);
+        document.getElementById('canonical-code').innerText = JSON.stringify(data.canonical, null, 2);
+
+        // Render Provenance
+        const provBody = document.getElementById('provenance-body');
+        provBody.innerHTML = '';
+        data.canonical.forEach(profile => {
+          if (profile.provenance) {
+            profile.provenance.forEach(prov => {
+              const row = document.createElement('tr');
+              row.innerHTML = `
+                <td><strong>${prov[0]}</strong></td>
+                <td><span class="file-tag">${prov[1]}</span></td>
+                <td><span class="method-tag">${prov[2]}</span></td>
+              `;
+              provBody.appendChild(row);
+            });
+          }
+        });
+
+        // Render validation errors
+        const valBox = document.getElementById('validation-box');
+        valBox.innerHTML = '';
+        const names = Object.keys(data.validationErrors);
+        if (names.length === 0) {
+          valBox.innerHTML = `<div class="validation-success">✓ Zero canonical schema violations detected. Profiles are clean.</div>`;
+        } else {
+          names.forEach(name => {
+            const container = document.createElement('div');
+            container.className = 'validation-errors-group';
+            container.innerHTML = `<h3>${name} Schema Warnings</h3>`;
+            const list = document.createElement('ul');
+            data.validationErrors[name].forEach(err => {
+              const item = document.createElement('li');
+              item.innerText = err;
+              list.appendChild(item);
+            });
+            container.appendChild(list);
+            valBox.appendChild(container);
+          });
+        }
+
+        resultsPanel.classList.remove('hidden');
+        resultsPanel.scrollIntoView({ behavior: 'smooth' });
+
+      } catch (err) {
+        alert(`Error: ${err.message}`);
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.innerText = 'Run Transformation Pipeline';
+      }
+    });
+
+    // Tab Management
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabButtons.forEach(b => b.classList.remove('active'));
+        tabContents.forEach(c => c.classList.remove('active'));
+        
+        btn.classList.add('active');
+        document.getElementById(btn.getAttribute('data-tab')).classList.add('active');
+      });
+    });
+
+    // Copy to clipboard helper
+    function copyToClipboard(id) {
+      const code = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        alert('Copied to clipboard!');
+      });
+    }
+  </script>
+</body>
+</html>
