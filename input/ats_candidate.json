@@ -1,0 +1,30 @@
+{
+  "candidate": {
+    "fullName": "Busam Greeshma",
+    "contactEmail": "greeshmabusam@gmail.com",
+    "cellPhone": "+919966123377",
+    "collegename":"CMR ENGINEERING COLLEGE",
+    "cgpa":"9.19",
+    "skills":{
+       "technicalSkills":[
+        "C++",
+        "Python",
+        "Java",
+        "C",
+        "MERN Stack",
+        "Web Technologies",
+        "Android app development"
+       ],
+       "softSkills":[
+        "Communication",
+        "Teamwork",
+        "Problem Solving",
+        "Leadership"
+       ],
+       "database":[
+        "MySQL",
+        "MongoDB"
+       ]
+    }
+  }
+}

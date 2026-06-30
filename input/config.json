@@ -1,0 +1,52 @@
+{
+  "fields": [
+    {
+      "path": "full_name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "path": "primary_email",
+      "from": "emails[0]",
+      "type": "string",
+      "required": true
+    },
+    {
+      "path": "alternative_email",
+      "from": "emails[1]",
+      "type": "string",
+      "required": false
+    },
+    {
+      "path": "phone",
+      "from": "phones[0]",
+      "type": "string",
+      "normalize": "E164"
+    },
+    {
+      "path": "skills",
+      "from": "skills[].name",
+      "type": "string[]",
+      "normalize": "canonical"
+    },
+    {
+      "path": "years_experience",
+      "type": "number"
+    },
+    {
+      "path": "headline",
+      "type": "string"
+    },
+    {
+      "path": "projects",
+      "type": "array"
+    },
+    {
+      "path": "certifications",
+      "type": "array"
+    }
+  ],
+  "include_confidence": true,
+  "include_provenance": true,
+  "on_missing": "null"
+}

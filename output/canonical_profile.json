@@ -1,0 +1,1376 @@
+[
+  {
+    "candidate_id": "cand_6772656573686d61",
+    "full_name": "Busam Greeshma",
+    "emails": [
+      "greeshmabusam@gmail.com"
+    ],
+    "phones": [
+      "+919966123377",
+      "+918977535636"
+    ],
+    "location": null,
+    "links": {
+      "linkedin": "http://www.linkedin.com/in/busam-greeshma-690045301",
+      "github": "https://github.com/BusamGreeshma",
+      "portfolio": null,
+      "other": [
+        "https://hackerrank.com/greeshmabusam",
+        "https://leetcode.com/u/greeshma_2005",
+        "https://codechef.com/users/greeshma2005",
+        "https://codeforces.com/profile/greeshmabusam",
+        "https://www.hackerrank.com/profile/greeshmabusam",
+        "https://leetcode.com/u/greeshma_2005/",
+        "https://www.codechef.com/users/greeshma2005",
+        "https://drive.google.com/file/d/13thLXD0io9VGKqS3JO0G2yCMChdCUlov/view?usp=drivesdk",
+        "https://drive.google.com/drive/folders/1Wtp4dTx8tnM-70uzlCvIT0QEYkz_8EC2",
+        "https://drive.google.com/file/d/1qI_o0ltUuAnTzBDQzq5FEZo2GTgaoYgr/view?usp=drivesdk",
+        "https://drive.google.com/file/d/1KIHfXOBJ3DJXkwbGqRu4ho7TfHLku8mD/view?usp=drivesdk",
+        "https://drive.google.com/file/d/1QpwlCJlQe3rsdejROOXZbkZ59C4BFSMp/view?usp=drivesdk",
+        "https://drive.google.com/file/d/1XFXiqzD_NOmKG4RkBjyj8lFznUAQw_S7/view?usp=drivesdk",
+        "https://drive.google.com/file/d/183OURr6rNjAlVRv1c8kKKrwQmwix8H_5/view?usp=drivesdk",
+        "https://drive.google.com/file/d/1MvVVIDl7ALlXieVJMScl0yfH1tG-vAnA/view?usp=drivesdk",
+        "https://drive.google.com/file/d/1Zf-dZf3h22aqMefYjHAyeSXbwOm6yQlW/view?usp=drivesdk"
+      ]
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      [
+        "C++",
+        0.9,
+        [
+          "resume.pdf",
+          "ats_candidate.json"
+        ]
+      ],
+      [
+        "Python",
+        0.9,
+        [
+          "resume.pdf",
+          "ats_candidate.json"
+        ]
+      ],
+      [
+        "Java",
+        0.9,
+        [
+          "resume.pdf",
+          "ats_candidate.json"
+        ]
+      ],
+      [
+        "Dsa",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Os",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Oops",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Dbms",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "C++ (trained By Smart Interviews)",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "HTML",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "CSS",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "JavaScript",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "React",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Node.js",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Express.js",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Kotlin",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Jetpack Compose",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Material3",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "SQL",
+        0.9,
+        [
+          "resume.pdf",
+          "ats_candidate.json"
+        ]
+      ],
+      [
+        "Mongodb",
+        0.9,
+        [
+          "resume.pdf",
+          "ats_candidate.json"
+        ]
+      ],
+      [
+        "Visual Studio Code",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Communication",
+        0.9,
+        [
+          "resume.pdf",
+          "ats_candidate.json"
+        ]
+      ],
+      [
+        "Teamwork",
+        0.9,
+        [
+          "resume.pdf",
+          "ats_candidate.json"
+        ]
+      ],
+      [
+        "Critical Thinking",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Enthusiastic Learner",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "C",
+        0.45,
+        [
+          "ats_candidate.json",
+          "resume.pdf (experience)"
+        ]
+      ],
+      [
+        "Mern Stack",
+        0.4,
+        [
+          "ats_candidate.json"
+        ]
+      ],
+      [
+        "Web Technologies",
+        0.4,
+        [
+          "ats_candidate.json"
+        ]
+      ],
+      [
+        "Android App Development",
+        0.4,
+        [
+          "ats_candidate.json"
+        ]
+      ],
+      [
+        "Problem Solving",
+        0.4,
+        [
+          "ats_candidate.json"
+        ]
+      ],
+      [
+        "Leadership",
+        0.4,
+        [
+          "ats_candidate.json"
+        ]
+      ]
+    ],
+    "experience": [
+      {
+        "company": "IBM Skills Build and CSRBOX Micro-Internship on Data Science",
+        "title": "Internship",
+        "start": null,
+        "end": null,
+        "summary": "Completed intensive program in Data Science, enhancing skills in data analysis, machine learning, and visualization with IBM Skills Build and CSRBOX."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Food Delivery App",
+        "summary": "React.js | Tailwind CSS | GitHub | a responsive food delivery web application with real-time search  functionality  using  controlled  components  and  React  Hooks.  Built  reusable  UI  components  with  Tailwind  CSS following a mobile-first design approach. Maintained version control using Git and hosted source code on GitHub.",
+        "github_link": "https://github.com/BusamGreeshma/Food-Delivery-App"
+      },
+      {
+        "name": "GitHub Profile Finder",
+        "summary": "Created a dynamic GitHub Profile Viewer using HTML | CSS | and JavaScript | integrating GitHub REST API to display real-time user data including profile details, followers, and repositories.",
+        "github_link": "https://github.com/BusamGreeshma/GITHUB-PROFILE-FINDER"
+      },
+      {
+        "name": "Responsive E-commerce Flower Shop",
+        "summary": "a responsive flower shop website using HTML and CSS with modern UI design, mobile responsiveness, and interactive product sections.",
+        "github_link": "https://github.com/BusamGreeshma/Flower-Website-E-commerce"
+      },
+      {
+        "name": "Unscramble  app",
+        "summary": "an  Android  word  unscramble  game using  Kotlin and  Android  Architecture  Components  with StateFlow to practice app logic and state handling.",
+        "github_link": "https://github.com/BusamGreeshma/Unscramble/tree/master"
+      },
+      {
+        "name": "Beach  Weather  Map",
+        "summary": "Developed  a  real-time  beach  weather  visualization  app  using HTML | CSS | JavaScript | Leaflet.js Node.js, Express.js, and Tomorrow.io API, to map conditions and classify recreational suitability across Indian beaches.",
+        "github_link": "https://github.com/BusamGreeshma/Beach-Weather-Map"
+      },
+      {
+        "name": "Enhancing Respiratory Disease Diagnosis with Graph Convolutional Networks",
+        "summary": "an AI model for respiratory disease detection using CNN and GCN-based architectures on lung sound spectrograms. Tech Stack: Python, CNN, GCN, Transformers, Librosa, Scikit-learn.",
+        "github_link": "https://github.com/BusamGreeshma/Enhancing-respiratory-disease-diagnosis-with-Graph-convolutional-networks"
+      }
+    ],
+    "education": [
+      {
+        "institution": "CMR ENGINEERING COLLEGE",
+        "degree": "Bachelor of Technology",
+        "field": "Computer Science and Engineering (Data Science)",
+        "end_year": null,
+        "cgpa": "9.19"
+      },
+      {
+        "institution": "Narayana Junior College",
+        "degree": "Telangana State Board of Intermediate Education (TSBIE)",
+        "field": null,
+        "end_year": "2023-01"
+      },
+      {
+        "institution": "BHASHYAM HIGH SCHOOL",
+        "degree": "SSC",
+        "field": null,
+        "end_year": "2021-01"
+      }
+    ],
+    "provenance": [
+      [
+        "candidate_id",
+        "candidate.csv",
+        "email_hashing"
+      ],
+      [
+        "full_name",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "emails[0]",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "phones[0]",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "phones[1]",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "links.linkedin",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.github",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[0]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[1]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[2]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[3]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[4]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[5]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[6]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[7]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[8]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[9]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[10]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[11]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[12]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[13]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[14]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[15]",
+        "resume2.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "skills[C++]",
+        "resume.pdf, ats_candidate.json",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Python]",
+        "resume.pdf, ats_candidate.json",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Java]",
+        "resume.pdf, ats_candidate.json",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Dsa]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Os]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Oops]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Dbms]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[C++ (trained By Smart Interviews)]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[HTML]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[CSS]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[JavaScript]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[React]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Node.js]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Express.js]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Kotlin]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Jetpack Compose]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Material3]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[SQL]",
+        "resume.pdf, ats_candidate.json",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Mongodb]",
+        "resume.pdf, ats_candidate.json",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Visual Studio Code]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Communication]",
+        "resume.pdf, ats_candidate.json",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Teamwork]",
+        "resume.pdf, ats_candidate.json",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Critical Thinking]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Enthusiastic Learner]",
+        "resume2.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[C]",
+        "ats_candidate.json, resume.pdf (experience)",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Mern Stack]",
+        "ats_candidate.json",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Web Technologies]",
+        "ats_candidate.json",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Android App Development]",
+        "ats_candidate.json",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Problem Solving]",
+        "ats_candidate.json",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Leadership]",
+        "ats_candidate.json",
+        "skills_canonical_mapping"
+      ],
+      [
+        "experience[0]",
+        "resume2.pdf",
+        "pdf_experience_heuristic"
+      ],
+      [
+        "projects[0]",
+        "resume2.pdf",
+        "pdf_projects_heuristic"
+      ],
+      [
+        "projects[0].github_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "projects[1]",
+        "resume2.pdf",
+        "pdf_projects_heuristic"
+      ],
+      [
+        "projects[1].github_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "projects[2]",
+        "resume2.pdf",
+        "pdf_projects_heuristic"
+      ],
+      [
+        "projects[2].github_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "projects[3]",
+        "resume2.pdf",
+        "pdf_projects_heuristic"
+      ],
+      [
+        "projects[3].github_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "projects[4]",
+        "resume2.pdf",
+        "pdf_projects_heuristic"
+      ],
+      [
+        "projects[4].github_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "projects[5]",
+        "resume2.pdf",
+        "pdf_projects_heuristic"
+      ],
+      [
+        "projects[5].github_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "education[0]",
+        "resume.pdf & ats_candidate.json",
+        "pdf_education_heuristic_with_ats_enrichment"
+      ],
+      [
+        "education[1]",
+        "resume2.pdf",
+        "pdf_education_heuristic"
+      ],
+      [
+        "education[2]",
+        "resume2.pdf",
+        "pdf_education_heuristic"
+      ],
+      [
+        "certifications[0]",
+        "resume2.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[0].certification_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "certifications[1]",
+        "resume2.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[1].certification_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "certifications[2]",
+        "resume2.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[2].certification_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "certifications[3]",
+        "resume2.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[3].certification_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "certifications[4]",
+        "resume2.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[4].certification_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "certifications[5]",
+        "resume2.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[5].certification_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "certifications[6]",
+        "resume2.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[6].certification_link",
+        "resume2.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "overall_confidence",
+        "system",
+        "weighted_fields_average"
+      ]
+    ],
+    "overall_confidence": 0.91,
+    "certifications": [
+      {
+        "name": "Achieved Smart Coder recognition (Smart Interviews)",
+        "certification_link": "https://drive.google.com/drive/folders/1Wtp4dTx8tnM-70uzlCvIT0QEYkz_8EC2"
+      },
+      {
+        "name": "Earned Data Analysis with Python and SQL certification.",
+        "certification_link": "https://drive.google.com/file/d/1qI_o0ltUuAnTzBDQzq5FEZo2GTgaoYgr/view?usp=drivesdk"
+      },
+      {
+        "name": "Certificate of Appreciation- Tech Tournament, CONVERGENCE 2K25 (VNRVJIET)",
+        "certification_link": "https://drive.google.com/file/d/1KIHfXOBJ3DJXkwbGqRu4ho7TfHLku8mD/view?usp=drivesdk"
+      },
+      {
+        "name": "Awarded for outstanding performance in CanHack2026 Hackathon",
+        "certification_link": "https://drive.google.com/file/d/1QpwlCJlQe3rsdejROOXZbkZ59C4BFSMp/view?usp=drivesdk"
+      },
+      {
+        "name": "Successfully earned Salesforce Certification, gaining hands-on knowledge of CRM and Salesforce platform fundamentals.",
+        "certification_link": "https://drive.google.com/file/d/1XFXiqzD_NOmKG4RkBjyj8lFznUAQw_S7/view?usp=drivesdk"
+      },
+      {
+        "name": "Participated in Web Development Competition organized by Google Developer Groups at Methodist College of Engineering and Technology (March 2026).",
+        "certification_link": "https://drive.google.com/file/d/183OURr6rNjAlVRv1c8kKKrwQmwix8H_5/view?usp=drivesdk"
+      },
+      {
+        "name": "Google  Cloud  Career  Launchpad – Data  Analytics  Track,  Google Cloud. Successfully  completed  all  courses and  hands-on labs in data analytics | March 2026",
+        "certification_link": "https://drive.google.com/file/d/1MvVVIDl7ALlXieVJMScl0yfH1tG-vAnA/view?usp=drivesdk"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_627372696e697661",
+    "full_name": "Busam Srinivasa Rao",
+    "emails": [
+      "bsrinivasarao_engr@yahoo.co"
+    ],
+    "phones": [
+      "+919989921199",
+      "+255699024742"
+    ],
+    "location": null,
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [],
+    "experience": [
+      {
+        "company": "Zanbreeze beach resort Zanzibar",
+        "title": "Chief Engineer",
+        "start": null,
+        "end": "Present",
+        "summary": "Current employment details from recruiter export."
+      }
+    ],
+    "projects": [],
+    "education": [],
+    "provenance": [
+      [
+        "candidate_id",
+        "candidate.csv",
+        "email_hashing"
+      ],
+      [
+        "full_name",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "emails[0]",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "phones[0]",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "phones[1]",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "experience[0]",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "overall_confidence",
+        "system",
+        "weighted_fields_average"
+      ]
+    ],
+    "overall_confidence": 0.84,
+    "certifications": []
+  },
+  {
+    "candidate_id": "cand_6b6d616e79617372",
+    "full_name": "Manya Sri",
+    "emails": [
+      "kmanyasri3@gmail.com"
+    ],
+    "phones": [
+      "+919110380981"
+    ],
+    "location": null,
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/k-manya-sri-836698311/",
+      "github": "https://github.com/KaranamManyasri",
+      "portfolio": null,
+      "other": [
+        "https://leetcode.com/u/TE0JrD3oY5/",
+        "https://drive.google.com/file/d/1o2I6h5W-B6o-YSBRkuNWJfvXOVmBgNDW/view?usp=drivesdk",
+        "https://drive.google.com/drive/folders/1nAbqGHE3PVJLZlcL_GVycREl37sQpwQ1"
+      ]
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      [
+        "Java",
+        0.95,
+        [
+          "resume.pdf",
+          "resume.pdf (experience)"
+        ]
+      ],
+      [
+        "Python",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Java(trained By Study Masth)",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "HTML",
+        0.95,
+        [
+          "resume.pdf",
+          "resume.pdf (experience)"
+        ]
+      ],
+      [
+        "CSS",
+        0.95,
+        [
+          "resume.pdf",
+          "resume.pdf (experience)"
+        ]
+      ],
+      [
+        "JavaScript",
+        0.95,
+        [
+          "resume.pdf",
+          "resume.pdf (experience)"
+        ]
+      ],
+      [
+        "SQL",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Visual Studio Code",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Eclipse",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Communication",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Teamwork",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Critical Thinking",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Enthusiastic Learner",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Focusing",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ],
+      [
+        "Consistency",
+        0.9,
+        [
+          "resume.pdf"
+        ]
+      ]
+    ],
+    "experience": [
+      {
+        "company": "IBM Skills Build and CSRBOX Micro-Internship on Data Science",
+        "title": "Internship",
+        "start": null,
+        "end": null,
+        "summary": "Completed intensive program in Data  Science,  enhancing  skills  in  data  analysis,  machine  learning,  and  visualization  with  IBM  Skills Build and CSRBOX."
+      },
+      {
+        "company": "Web Development Internship Certificate",
+        "title": "Internship",
+        "start": null,
+        "end": null,
+        "summary": "Talent Trek (AWS Partner) | Built responsive web applications using HTML, CSS, JavaScript."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Krish Handicraft Store (E-Commerce Website)",
+        "summary": "HTML | CSS | JavaScript | Developed a responsive e-commerce  website for showcasing and selling handicrafts, textiles, crockery, and clothing  with a user- friendly interface and navigation.",
+        "github_link": "https://github.com/KaranamManyasri/Krish-Handicraft-Store-E-Commerce-Site-.git"
+      },
+      {
+        "name": "Emotion  Differentiation  Using  Eye-Tracking  &  Pupil  Diameter",
+        "summary": "Python | Machine  Learning Developed  an  emotion  recognition  system  that  analyzes  eye  movements  and  pupil  diameter  to  classify human emotions using machine learning techniques.",
+        "github_link": "https://github.com/KaranamManyasri/Emotion-Differentiation-Through-features-of-EYE--tracking-pupil-Diameter.git"
+      },
+      {
+        "name": "Organic Waste Management",
+        "summary": "HTML | CSS | JavaScript | Developed a responsive web application for selling compost products, enabling farmers to easily access eco-friendly agricultural solutions.",
+        "github_link": "https://github.com/KaranamManyasri/Organic-waste-project.git"
+      },
+      {
+        "name": "Restaurant Website",
+        "summary": "HTML | CSS | JavaScript | Developed a responsive restaurant website with menu display, food gallery, and contact features using HTML, CSS, and JavaScript.",
+        "github_link": "https://github.com/KaranamManyasri/Restaurant-website.git"
+      }
+    ],
+    "education": [
+      {
+        "institution": null,
+        "degree": " Bachelor  of  Technology",
+        "field": "Computer  Science  and  Engineering  (Data  Science)",
+        "end_year": null
+      },
+      {
+        "institution": "COLLEGE",
+        "degree": null,
+        "field": null,
+        "end_year": null
+      },
+      {
+        "institution": "Pragathi Junior College For Girls",
+        "degree": " Telangana State Board of Intermediate Education (TSBIE)",
+        "field": null,
+        "end_year": null
+      },
+      {
+        "institution": "Viswa Bharathi High School",
+        "degree": " SSC",
+        "field": null,
+        "end_year": null
+      }
+    ],
+    "provenance": [
+      [
+        "candidate_id",
+        "candidate.csv",
+        "email_hashing"
+      ],
+      [
+        "full_name",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "emails[0]",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "phones[0]",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "links.linkedin",
+        "resume.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.github",
+        "resume.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[0]",
+        "resume.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[1]",
+        "resume.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "links.other[2]",
+        "resume.pdf",
+        "pdf_regex_extractor"
+      ],
+      [
+        "skills[Java]",
+        "resume.pdf, resume.pdf (experience)",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Python]",
+        "resume.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Java(trained By Study Masth)]",
+        "resume.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[HTML]",
+        "resume.pdf, resume.pdf (experience)",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[CSS]",
+        "resume.pdf, resume.pdf (experience)",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[JavaScript]",
+        "resume.pdf, resume.pdf (experience)",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[SQL]",
+        "resume.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Visual Studio Code]",
+        "resume.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Eclipse]",
+        "resume.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Communication]",
+        "resume.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Teamwork]",
+        "resume.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Critical Thinking]",
+        "resume.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Enthusiastic Learner]",
+        "resume.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Focusing]",
+        "resume.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "skills[Consistency]",
+        "resume.pdf",
+        "skills_canonical_mapping"
+      ],
+      [
+        "experience[0]",
+        "resume.pdf",
+        "pdf_experience_heuristic"
+      ],
+      [
+        "experience[1]",
+        "resume.pdf",
+        "pdf_experience_heuristic"
+      ],
+      [
+        "projects[0]",
+        "resume.pdf",
+        "pdf_projects_heuristic"
+      ],
+      [
+        "projects[0].github_link",
+        "resume.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "projects[1]",
+        "resume.pdf",
+        "pdf_projects_heuristic"
+      ],
+      [
+        "projects[1].github_link",
+        "resume.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "projects[2]",
+        "resume.pdf",
+        "pdf_projects_heuristic"
+      ],
+      [
+        "projects[2].github_link",
+        "resume.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "projects[3]",
+        "resume.pdf",
+        "pdf_projects_heuristic"
+      ],
+      [
+        "projects[3].github_link",
+        "resume.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "education[0]",
+        "resume.pdf",
+        "pdf_education_heuristic"
+      ],
+      [
+        "education[1]",
+        "resume.pdf",
+        "pdf_education_heuristic"
+      ],
+      [
+        "education[2]",
+        "resume.pdf",
+        "pdf_education_heuristic"
+      ],
+      [
+        "education[3]",
+        "resume.pdf",
+        "pdf_education_heuristic"
+      ],
+      [
+        "certifications[0]",
+        "resume.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[0].certification_link",
+        "resume.pdf",
+        "pdf_hyperlinks_annotations_extraction"
+      ],
+      [
+        "certifications[1]",
+        "resume.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[2]",
+        "resume.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[3]",
+        "resume.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[4]",
+        "resume.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[5]",
+        "resume.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "certifications[6]",
+        "resume.pdf",
+        "pdf_certifications_heuristic"
+      ],
+      [
+        "overall_confidence",
+        "system",
+        "weighted_fields_average"
+      ]
+    ],
+    "overall_confidence": 0.92,
+    "certifications": [
+      {
+        "name": "Certified in SQL and Relational Databases 101 by IBM.",
+        "certification_link": "https://drive.google.com/drive/folders/1nAbqGHE3PVJLZlcL_GVycREl37sQpwQ1"
+      },
+      {
+        "name": "Certificate from NPTEL for JAVA(Sliver Badge).",
+        "certification_link": null
+      },
+      {
+        "name": "Certificate from NARESH i Technologies for C Language.",
+        "certification_link": null
+      },
+      {
+        "name": "Certified in Python Essentials 1 & 2 from CISCO networking academy. – Awarded for outstanding performance in the Internal Smart India Hackathon.",
+        "certification_link": null
+      },
+      {
+        "name": "Certificate for AI from INFOSYS – On March 5 | 2026.",
+        "certification_link": null
+      },
+      {
+        "name": "Successfully earned Salesforce Certification – gaining hands-on knowledge of CRM and Salesforce platform fundamentals.",
+        "certification_link": null
+      },
+      {
+        "name": "Google Cloud Career Launchpad – Data Analytics Track | Google Cloud Successfully completed all courses and hands-on labs in data analytics | March 2026.  Participated in Web Development Competition organized by Google Developer Groups at Methodist College of Engineering and Technology (March 2026).",
+        "certification_link": null
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_7268696d6162696e",
+    "full_name": "Himabindu",
+    "emails": [
+      "rhimabindu31@gmail.com"
+    ],
+    "phones": [
+      "+917661076123"
+    ],
+    "location": null,
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [],
+    "experience": [
+      {
+        "company": "Student",
+        "title": "null",
+        "start": null,
+        "end": "Present",
+        "summary": "Current employment details from recruiter export."
+      }
+    ],
+    "projects": [],
+    "education": [],
+    "provenance": [
+      [
+        "candidate_id",
+        "candidate.csv",
+        "email_hashing"
+      ],
+      [
+        "full_name",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "emails[0]",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "phones[0]",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "experience[0]",
+        "candidate.csv",
+        "structured_csv_import"
+      ],
+      [
+        "overall_confidence",
+        "system",
+        "weighted_fields_average"
+      ]
+    ],
+    "overall_confidence": 0.84,
+    "certifications": []
+  }
+]

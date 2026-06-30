@@ -1,0 +1,5 @@
+node_modules/
+.gemini/
+.system_generated/
+.agents/
+*.log
